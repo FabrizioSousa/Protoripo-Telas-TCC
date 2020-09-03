@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrototipoTelas.MainPage">
+
+    <StackLayout>
+        <Label Text="CresceDin" FontSize="50" FontAttributes="Bold" HorizontalTextAlignment="Center">
+           
+        </Label>
+
+
+        <Label Text="Login" FontSize="30" FontAttributes="Bold"/>
+        <Entry>
+        </Entry>
+        <Label Text="Senha" FontSize="30" FontAttributes="Bold"/>
+        <Entry>
+        </Entry>
+        <Button Text="Login" ></Button>
+        <Button Text="Esqueci minha senha" BackgroundColor="LightBlue"></Button>
+
+    </StackLayout>
+
+</ContentPage>

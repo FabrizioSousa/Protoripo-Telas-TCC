@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrototipoTelas.Views.Carteira_Desp_Extras">
+    <StackLayout>
+        <Label Text="Carteira" HorizontalTextAlignment="Center" FontSize="50" AbsoluteLayout.LayoutBounds="0,0"></Label>
+        <Button Text="Renda" AbsoluteLayout.LayoutBounds="0,50" />
+        <Button Text="Despesas Fixas" AbsoluteLayout.LayoutBounds="90,50"  />
+        <Button Text="Despesas Extras" AbsoluteLayout.LayoutBounds="230,50" BackgroundColor="orange"/>
+        <Label Text="Categoria:" FontSize="20" AbsoluteLayout.LayoutBounds="0,120"></Label>
+        <Picker >
+            <Picker.Items>
+                <x:String>Option 1</x:String>
+                <x:String>Option 2</x:String>
+                <x:String>Option 3</x:String>
+            </Picker.Items>
+        </Picker>
+        <Label Text="Descrição:" FontSize="20" AbsoluteLayout.LayoutBounds="0,120"></Label>
+        <Entry></Entry>
+        <Label Text="Valor:" FontSize="20" AbsoluteLayout.LayoutBounds="0,120"></Label>
+        <Entry Placeholder="R$"></Entry>
+        <Button Text="+" Clicked="Adicionar"></Button>
+
+
+
+    </StackLayout>
+</ContentPage>
