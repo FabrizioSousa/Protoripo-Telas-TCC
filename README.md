@@ -1,4 +1,4 @@
-# Protoripo-Telas-TCC
+# Prototipo-Telas-TCC
 TCC - CresceDin
 
 Dennis Lima - 081160039
